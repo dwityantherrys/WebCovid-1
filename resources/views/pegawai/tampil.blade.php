@@ -36,7 +36,7 @@ active
                     @foreach($pegawai as $tampil)
                     <tr>                      
                       <td><a href="{{route('pegawai.show', $tampil->id)}}">{{$tampil->NIP}}</a></td>
-                      <td>{{$tampil->nama}}, {{$tampil->nama}}</td>
+                      <td>{{$tampil->nama}}</td>
                       <td>{{$tampil->jabatan}}</td>
                       <td>
                        
