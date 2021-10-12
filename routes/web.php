@@ -21,7 +21,7 @@ use App\Http\Controllers\PegawaiController;
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/', function () {
         return view('vaksin.index');
-    })->name('home');    
+    })->name('HOME');    
     Route::resource('/vaksin', VaksinController::class);
     Route::resource('/darah', 'DarahController');
     Route::resource('/pegawai', PegawaiController::class);

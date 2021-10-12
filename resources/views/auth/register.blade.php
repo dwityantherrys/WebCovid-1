@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('auth.app')
 
 @section('content')
 <div class="container">
@@ -69,6 +69,19 @@
                             </div>
                         </div>
                     </form>
+                    <br>
+                    
+                    <div class="form-group row mb-0">
+                        <div class="col-md-6 offset-md-4">
+                            <a href="login">
+                                <button class="btn btn-primary">
+                                    {{ __('Kembali') }}
+                                </button>
+                              </a>
+                           
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
