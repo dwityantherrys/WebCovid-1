@@ -34,9 +34,9 @@ active
                   </div>
                 </div>
                 <div class="form-group row">
-                    <label class="control-label col-md-3">Tempat Lahir</label>
+                    <label class="control-label col-md-3">Usia</label>
                     <div class="col-md-8">
-                      <input class="form-control col-md-8" type="text" name="tmpt_lahir" value="{{$vaksin->tmpt_lahir}}">
+                      <input class="form-control col-md-8" type="text" name="usia" value="{{$vaksin->usia}}">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -68,9 +68,9 @@ active
                 </div>
 
                 <div class="form-group row">
-                    <label class="control-label col-md-3">Nomor HP</label>
+                    <label class="control-label col-md-3">NIK</label>
                     <div class="col-md-8">
-                      <input class="form-control" type="number" name="nohp" value="{{$vaksin->nohp}}">
+                      <input class="form-control" type="number" name="nik" value="{{$vaksin->nik}}">
                     </div>
                 </div>
                 <div class="form-group row">

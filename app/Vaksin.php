@@ -10,11 +10,11 @@ class Vaksin extends Model
     protected $table='vaksin';
     protected $fillable = [
     'nama',
-    'tmpt_lahir',
+    'usia',
     'tgl_lahir',
     'jenis_kelamin',
     'alamat',   
-    'nohp',    
+    'nik',    
     'status',
     ];
 

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('template/docs/css/main.css')}}">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Login - Pergudangan</title>
+    <title>Login - Input Data Covid-19 Kelurahan Jatimulyo</title>
   </head>
   <body>
     <section class="material-half-bg">
@@ -16,7 +16,7 @@
     </section>
     <section class="login-content">
       <div class="logo">
-        <h1>Pergudangan</h1>
+        <h1>Input Data Covid-19 Kelurahan Jatimulyo</h1>
       </div>
       <div class="login-box">
         <form class="login-form" method="POST" action="{{ route('login') }}">

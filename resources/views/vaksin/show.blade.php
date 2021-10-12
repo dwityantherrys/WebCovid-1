@@ -32,10 +32,15 @@ active
                 <td>{{$vaksin->nama}}</td>
 							</tr>
 							<tr>
-								<td> Tempat, Tanggal Lahir</td>
+								<td> Usia</td>
 								<td>:</td>
-								<td>{{$vaksin->tmpt_lahir}}, {{$vaksin->tgl_lahir}}</td>
-							</tr>                               
+								<td>{{$vaksin->usia}}, </td>
+							</tr>                 
+							<tr>
+								<td> TTL</td>
+								<td>:</td>
+								<td>{{$vaksin->tgl_lahir}}, </td>
+							</tr>                            
 							<tr>
 								<td> Jenis Kelamin</td>
 								<td>:</td>
@@ -47,9 +52,9 @@ active
 								<td>{{$vaksin->alamat}}</td>
 							</tr>                                                                                                                                      
 							</tr>                               
-								<td> Nomor HP</td>
+								<td> NIK</td>
 								<td>:</td>
-								<td>{{$vaksin->nohp}}</td>
+								<td>{{$vaksin->nik}}</td>
 							</tr>                
 							</tr>                               
 								<td> Status</td>

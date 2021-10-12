@@ -56,8 +56,8 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{{ asset('image/jum.jpg') }}"
-                alt="User Image">
+        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{}"
+                alt="">
             <div>
                 <p class="app-sidebar__user-name">Data Vaksin</p>
                 <p class="app-sidebar__user-designation">Kelurahan Jatimulyo</p>

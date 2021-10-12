@@ -49,12 +49,12 @@ class VaksinController extends Controller
         // dd('msk');
         $vaksin = new Vaksin();
         $vaksin->nama = $request ->nama;
-        $vaksin->tmpt_lahir = $request ->tmpt_lahir;
+        $vaksin->usia = $request ->usia;
         $vaksin->tgl_lahir = $request ->tgl_lahir;
         $vaksin->jenis_kelamin = $request ->jenis_kelamin;
      //   $vaksin->gol_darah_id = $request ->gol_darah_id;
         $vaksin->alamat = $request ->alamat;        
-        $vaksin->nohp = $request ->nohp;
+        $vaksin->nik = $request ->nik;
         $vaksin->status = $request ->status;
         
         $vaksin->save();
@@ -101,12 +101,12 @@ class VaksinController extends Controller
         //
         $vaksin = \App\Vaksin::find($id);
         $vaksin->nama = $request ->nama;
-        $vaksin->tmpt_lahir = $request ->tmpt_lahir;
+        $vaksin->usia = $request ->usia;
         $vaksin->tgl_lahir = $request ->tgl_lahir;
         $vaksin->jenis_kelamin = $request ->jenis_kelamin;
     //    $vaksin->gol_darah_id = $request ->gol_darah_id;
         $vaksin->alamat = $request ->alamat;        
-        $vaksin->nohp = $request ->nohp;   
+        $vaksin->nik = $request ->nik;   
         $vaksin->status = $request ->status;
         $vaksin->save();  
 

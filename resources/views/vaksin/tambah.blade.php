@@ -35,9 +35,9 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="control-label col-md-3">Tempat Lahir</label>
+                                <label class="control-label col-md-3">Usia</label>
                                 <div class="col-md-8">
-                                    <input class="form-control col-md-8" type="text" name="tmpt_lahir">
+                                    <input class="form-control col-md-8" type="text" name="usia">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -72,9 +72,9 @@
 
 
                             <div class="form-group row">
-                                <label class="control-label col-md-3">Nomor HP</label>
+                                <label class="control-label col-md-3">NIK</label>
                                 <div class="col-md-8">
-                                    <input class="form-control" type="text" name="nohp">
+                                    <input class="form-control" type="text" name="nik">
                                 </div>
                             </div>
                             <div class="form-group row">

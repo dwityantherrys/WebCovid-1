@@ -28,10 +28,11 @@ active
                   <thead>
                     <tr>
                       <th>Nama</th>
+                      <th>Usia</th>
                       <th>TTL</th>
                       <th>Jenis Kelamin</th>
                       <th>Alamat</th>
-                      <th>No. Telp</th>
+                      <th>NIK</th>
                       <th>Status</th>
                       <th>Action</th>
                     </tr>
@@ -40,10 +41,11 @@ active
                     @foreach($vaksin as $tampil)
                     <tr>                      
                       <td><a href="{{route('vaksin.show', $tampil->id)}}">{{$tampil->nama}}</a></td>
-                      <td>{{$tampil->tmpt_lahir}}, {{$tampil->tgl_lahir}}</td>
+                      <td>{{$tampil->usia}} </td>
+                      <td>{{$tampil->tgl_lahir}}</td>
                       <td>{{$tampil->jenis_kelamin}}</td>
                       <td>{{$tampil->alamat}}</td>
-                      <td>{{$tampil->nohp}}</td>
+                      <td>{{$tampil->nik}}</td>
                       <td>{{$tampil->status}}</td>
                       <td>
                        
